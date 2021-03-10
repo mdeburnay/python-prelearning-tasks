@@ -1,6 +1,14 @@
 def vowel_swapper(string):
     # ==============
     # Your code here
+    # dict = {'a': '4', 'A': '4', 'e': '3', 'E': '3', 'i': '!',
+    #         'I': '!', 'o': 'ooo', 'O': '000', 'u': '|_|', 'U': '|_|'}
+
+    # for char in string:
+    #     if char in dict:
+    #         print(dict[char], end='')
+    #     else:
+    #         print(char, end='')
 
     string = string.replace("a", "4")
     string = string.replace("A", "4")

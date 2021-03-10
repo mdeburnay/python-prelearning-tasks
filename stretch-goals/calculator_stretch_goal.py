@@ -15,7 +15,7 @@ def calculator(a, b, operator):
         binaryResult = int(strBinary[2:])
         return binaryResult
     if operator == "/":
-        strBinary = bin(a / b)
+        strBinary = str(bin(a // b))
         binaryResult = int(strBinary[2:])
         return binaryResult
 
